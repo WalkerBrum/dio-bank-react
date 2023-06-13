@@ -1,5 +1,5 @@
 import { ReactNode } from "react"
-import { Container, Flex } from '@chakra-ui/react'
+import { Flex } from '@chakra-ui/react'
 
 import { Footer } from "./Footer"
 import { Header } from "./Header"
