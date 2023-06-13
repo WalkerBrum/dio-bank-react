@@ -1,46 +1,53 @@
-# Getting Started with Create React App
+# **Página de login do Dio Bank** 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Descrição** 
+Projeto com react e typescript que simula uma página de login do fictício banco da Dio. O Layout foi pensando de forma responsiva para funcionar em desktops, tablets e mobiles, além de possíveis novas funcionalidas. 
 
-## Available Scripts
+<hr>
 
-In the project directory, you can run:
+## **Acessar Aplicação**
+[Deploy Dio Bank](https://dio-bank-react-rust.vercel.app/)
 
-### `npm start`
+<hr>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## **Objetivos**
+Criar aplicação com que simula uma tela de login com React e Typescript, realizando testes com a ferramenta Jest;
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## **Tecnologias**
+Este projeto foi desenvolvido com as seguintes tecnologias: 
+- TypeScript;
+- React;
+- React Hooks;
+- Chackra UI;
+- Jest;
 
-### `npm test`
+<hr>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **Requerimentos**
+- Node.js;
+- npm ou yarn;
 
-### `npm run build`
+## **Instalação**
+`npm install`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Start Projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Primeiro, execute o servidor de desenvolvimento:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm star
+# or
+yarn star
+```
 
-### `npm run eject`
+Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o resultado.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## **Clone do Projeto**
+`https://github.com/WalkerBrum/dio-bank-react.git`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 📷 Demonstração da Aplicação
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<img src="assets/print-screen-login.png" title="Print screen da página de login"/>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## **Autor e Agradecimento**
+Eu Walker Lobato como desenvolvedor do projeto sou grato por poder participar desse desafio técnico promovido pela Dio, pois foi um grande oportunidade para o desenvolvimento das minhas hard skills, aprimorando os meus conhecimentos nas tecnlogias Typescript, React e Chackra UI, além começar a aprender sobre test com Jest.
