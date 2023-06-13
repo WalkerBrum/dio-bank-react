@@ -47,7 +47,7 @@ Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o
 
 # 📷 Demonstração da Aplicação
 
-<img src="assets/print-screen-login.png" title="Print screen da página de login"/>
+<img src="public/images/print-screen-login.png" title="Print screen da página de login"/>
 
 ## **Autor e Agradecimento**
 Eu Walker Lobato como desenvolvedor do projeto sou grato por poder participar desse desafio técnico promovido pela Dio, pois foi um grande oportunidade para o desenvolvimento das minhas hard skills, aprimorando os meus conhecimentos nas tecnlogias Typescript, React e Chackra UI, além começar a aprender sobre test com Jest.
