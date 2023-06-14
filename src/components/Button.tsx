@@ -1,12 +1,13 @@
 
-import { Button, Center } from '@chakra-ui/react'
+import { Button, Center } from '@chakra-ui/react';
+import { MouseEventHandler } from 'react';
 
 interface IButtonAllAplicationProps {
   text?: string
   size: string
   color: string
   disabled?: boolean
-  click: () => void
+  click: MouseEventHandler
 }
 
 export const ButtonAllAplication: React.FC<IButtonAllAplicationProps> = ({ text, click,size, color, disabled }) => {

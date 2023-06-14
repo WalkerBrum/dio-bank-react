@@ -7,9 +7,10 @@ import { ButtonAllAplication } from './Button';
 import { activeButton } from '../services/activeButton';
 
 export const Card = () => {
-  const [show, setShow] = useState(false);
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [show, setShow] = useState<boolean>(false);
+
+  const [email, setEmail] = useState<string>('');
+  const [password, setPassword] = useState<string>('');
 
   const handleClick = (): void => setShow(!show);
 
@@ -54,7 +55,7 @@ export const Card = () => {
         color='teal' 
         size='lg'
         disabled={activeButton(email, password)}
-        click={login} 
+        click={() => login(email, password)} 
       />
     </Box>      
   )
