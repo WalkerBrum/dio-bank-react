@@ -35,9 +35,9 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 Primeiro, execute o servidor de desenvolvimento:
 
 ```bash
-npm star
+npm start
 # or
-yarn star
+yarn start
 ```
 
 Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o resultado.
